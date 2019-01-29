@@ -47,17 +47,16 @@ You could edit the script and remove the requirement of PoshRSJob, but this cut 
 
 ## Installation
 
-Download the repo, and extract somewhere.
-Inspect all of the scripts and make sure you're happy with what they do, and how they do it.
-Edit the `mailParams` hashtable in `Send-AABitlockerEmail.ps1` which your desired details.
-Run `Start-AADBitlockerReport.ps1`.
+1. Download the repo, and extract somewhere.
+1. Inspect all of the scripts and make sure you're happy with what they do, and how they do it.
+1. Edit the `mailParams` hashtable in `Send-AABitlockerEmail.ps1` which your desired details.
+1. Run `Start-AADBitlockerReport.ps1`.
 
 You can set this up as a scheduled task as well. I use seperate accounts for everything so by default you can see two different credentials being passed, but you can edit this howevery you like.
 
 ## Screenshots
 
 ![Report Output](https://i.imgur.com/4Ff6DDI.png)
-
 
 ## Thanks
 
